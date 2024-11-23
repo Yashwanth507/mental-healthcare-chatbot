@@ -80,7 +80,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Replace the google_api_key here
-GOOGLE_API_KEY = "AIzaSyAsg5iqCWaxn47X-dEBVgy9Kcz3o1RaFus"  # Replace with Google_Api_Key 
+GOOGLE_API_KEY = "YOUR_API_KEY_HERE"  # Replace with Google_Api_Key 
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Load the Gemini Pro model
